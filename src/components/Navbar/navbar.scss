@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+.navbar {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 6em;
+  position: relative;
+
+  .logo {
+    font-family: "lobster", sans-serif;
+    font-weight: 200;
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    li {
+      display: inline-block;
+      margin-left: 2em;
+      list-style: none;
+      color: white;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .burger {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+
+    &-line {
+      display: block;
+      width: 2em;
+      height: 4px;
+      background-color: white;
+      border-radius: 2px;
+      transition: transform 0.25s ease;
+
+      &:first-child {
+        margin-bottom: 5px;
+      }
+
+      &:nth-child(3) {
+        margin-top: 5px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1075px) {
+  .navbar {
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1em 4em;
+  }
+
+  nav {
+    visibility: hidden;
+    height: 0px;
+    opacity: 0;
+    margin-top: 4em;
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    justify-content: flex-end;
+    left: 0;
+    top: 0;
+    padding: 1em 6em;
+    text-align: end;
+    transition: visibility 0.25s ease, height 0.4s ease,
+      opacity 0.165s ease 0.1s;
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      visibility: hidden;
+
+      a {
+        margin-bottom: 1em;
+      }
+    }
+  }
+
+  .burger {
+    display: flex !important;
+  }
+}
+
+.show-nav {
+  visibility: visible;
+  height: 10rem;
+  opacity: 1;
+  transition: visibility 0.1s ease, height 0.25s ease, opacity 0.25s ease;
+}
+
+.show-links {
+  visibility: visible;
+}
+
+.first-line {
+  transform: rotate(45deg) translateY(10px);
+}
+
+.second-line {
+  transform: rotate(-45deg) translateY(-5px) translateX(-3px);
+}
+
+.third-line {
+  transform: rotate(-45deg) translateY(-11px) translateX(3px);
+}

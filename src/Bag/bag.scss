@@ -1,0 +1,126 @@
+.Bag {
+  &__container {
+    padding: 6em;
+    position: relative;
+
+    .ItemsList {
+      hr {
+        margin-bottom: 2rem;
+        border-top: 1px solid #c7c7c7;
+      }
+
+      &__heading {
+        margin-bottom: 2rem;
+      }
+
+      &__item {
+        display: flex;
+        margin-bottom: 2rem;
+
+        &__img img {
+          height: 12rem;
+          margin-right: 2rem;
+        }
+
+        &__rem {
+          flex-grow: 2;
+          display: flex;
+          justify-content: flex-end;
+
+          p {
+            margin-left: 4rem;
+            margin-right: 4rem;
+          }
+
+          a:hover {
+            cursor: pointer;
+            text-decoration: underline;
+          }
+        }
+      }
+
+      &__checkout {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        a {
+          display: block;
+          text-decoration: none;
+          color: white;
+          padding: 1em;
+          margin-left: 1em;
+          background-color: black;
+          text-align: center;
+          cursor: pointer;
+        }
+      }
+
+      .bag-empty {
+        border: 2px solid #e6e6e6;
+        background-color: #eeeeee;
+        padding: 5em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        i {
+          font-size: 10rem;
+          color: #c7c7c7;
+          margin-bottom: 1rem;
+        }
+
+        h1 {
+          margin-bottom: 1rem;
+        }
+
+        p {
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  &__modal {
+    display: none;
+  }
+}
+
+.show {
+  display: flex;
+}
+
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 650px) {
+  .Bag__container {
+    padding: 6em 4em;
+
+    .ItemsList {
+      &__item {
+        display: flex;
+        flex-direction: column;
+      }
+
+      &__item {
+        flex-direction: column;
+
+        &__img {
+          margin-bottom: 2em;
+          text-align: center;
+        }
+
+        &__desc {
+          margin-bottom: 2em;
+        }
+
+        &__rem {
+          justify-content: flex-start;
+        }
+      }
+    }
+  }
+}

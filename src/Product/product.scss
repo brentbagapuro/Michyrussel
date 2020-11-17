@@ -1,0 +1,118 @@
+.Product {
+  &__container {
+    padding: 6em;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .img-list {
+      display: flex;
+      flex-direction: column;
+      margin-right: 1em;
+      margin-bottom: 2em;
+
+      img {
+        height: 5.5rem;
+        width: 4rem;
+        margin-bottom: 1em;
+        border: 1px solid rgb(139, 139, 139);
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+
+    .main-img {
+      margin-right: 2em;
+      margin-bottom: 4em;
+
+      img {
+        width: 20rem;
+        height: 30rem;
+      }
+    }
+
+    .desc {
+      margin-right: 5em;
+      margin-bottom: 4em;
+      width: 20rem;
+
+      &__brand {
+        margin-bottom: 0.2em;
+      }
+
+      &__name {
+        margin-bottom: 1em;
+      }
+
+      .incentives {
+        margin-top: 3em;
+
+        &__content {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 1em;
+
+          span {
+            background-color: black;
+            color: white;
+            width: 4em;
+            text-align: center;
+          }
+        }
+      }
+    }
+
+    .purchase-option {
+      margin-bottom: 4em;
+
+      .authenticity {
+        display: flex;
+        margin-bottom: 2em;
+
+        i {
+          margin-right: 0.5em;
+        }
+      }
+
+      h4 {
+        margin-bottom: 0.5em;
+      }
+
+      a {
+        display: block;
+        margin-top: 2em;
+        text-decoration: none;
+        color: white;
+        padding: 1em;
+        background-color: black;
+        text-align: center;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .Product__container {
+    padding: 6em 1em;
+
+    .main-img {
+      order: -1;
+      margin-right: 0px;
+    }
+
+    .img-list {
+      flex-direction: row;
+      margin-right: 0px;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      img {
+        margin: 0 1em 1em 1em;
+      }
+    }
+  }
+}

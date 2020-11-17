@@ -1,0 +1,173 @@
+[
+    {
+        "id": 1,
+        "name": "Original Logo Crew Neck Short Sleeve Tee",
+        "sex": "Men",
+        "brand": "Guess",
+        "category": "Shirts",
+        "price": "$24.00",
+        "size": ["XS", "S", "M", "L", "XL"],
+        "images": [
+            "img/Original-Logo-Crew-Neck-Short-Sleeve-Tee-1.jpg",
+            "img/Original-Logo-Crew-Neck-Short-Sleeve-Tee-2.jpg",
+            "img/Original-Logo-Crew-Neck-Short-Sleeve-Tee-3.jpg"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Core Tech Logo T-Shirt",
+        "sex": "Men",
+        "brand": "Hollister",
+        "category": "Shirts",
+        "price": "$24.00",
+        "size": ["XS", "S", "M", "L", "XL"],
+        "images": [
+            "img/Core-Tech-Logo-T-Shirt-1.jpg",
+            "img/Core-Tech-Logo-T-Shirt-2.jpg",
+            "img/Core-Tech-Logo-T-Shirt-3.jpg"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Men's Sportswear Icon Futura Tee",
+        "sex": "Men",
+        "brand": "Nike",
+        "category": "Shirts",
+        "price": "$23.00",
+        "size": ["XS", "S", "M", "L", "XL"],
+        "images": [
+            "img/Mens-Sportswear-Icon-Futura-Tee-1.jpg",
+            "img/Mens-Sportswear-Icon-Futura-Tee-2.jpg",
+            "img/Mens-Sportswear-Icon-Futura-Tee-3.jpg"
+        ]
+    },        
+    {
+        "id": 4,
+        "name": "Autograph Flag Slim Fit Polo",
+        "sex": "Men",
+        "brand": "Tommy Hillfiger",
+        "category": "Polos",
+        "price": "$83.00",
+        "size": ["XS", "S", "M", "L", "XL"],
+        "images": [
+            "img/Autograph-Flag-Slim-Fit-Polo-1.jpg",
+            "img/Autograph-Flag-Slim-Fit-Polo-2.jpg",
+            "img/Autograph-Flag-Slim-Fit-Polo-3.jpg"
+        ]
+    },        
+    {
+        "id": 5,
+        "name": "Essential 3-Stripes Wind Pants",
+        "sex": "Men",
+        "brand": "Adidas",
+        "category": "Pants",
+        "price": "$27.00",
+        "size": ["XS", "S", "M", "L", "XL"],
+        "images": [
+            "img/Essential-3-Stripes-Wind-Pants-1.jpg",
+            "img/Essential-3-Stripes-Wind-Pants-2.jpg",
+            "img/Essential-3-Stripes-Wind-Pants-3.jpg"
+        ]
+    },    
+    {
+        "id": 6,
+        "name": "Stan Smith Shoes",
+        "sex": "Men",
+        "brand": "Adidas",
+        "category": "Shoes",
+        "price": "$100.00",
+        "size": ["7", "7.5", "8", "8.5", "9", "9.5", "10"],
+        "images": [
+            "img/Stan-Smith-Shoes-1.jpg",
+            "img/Stan-Smith-Shoes-2.jpg",
+            "img/Stan-Smith-Shoes-3.jpg",
+            "img/Stan-Smith-Shoes-4.jpg",
+            "img/Stan-Smith-Shoes-5.jpg"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Featherlight Cap",
+        "sex": "Men",
+        "brand": "Nike",
+        "category": "Hats/Caps",
+        "price": "$20.00",
+        "size": ["One-size"],
+        "images": [
+            "img/Featherlight-Cap-1.jpg",
+            "img/Featherlight-Cap-2.jpg"
+        ]
+    },    
+    {
+        "id": 8,
+        "name": "Graphics Linear Logo Short Sleeves Tee",
+        "sex": "Women",
+        "brand": "Calvin Klein",
+        "category": "Tops",
+        "price": "$21.00",
+        "size": ["XS", "S", "M", "L", "XL"],
+        "images": [
+            "img/Graphics-Linear-Logo-Short-Sleeves-Tee-1.jpg",
+            "img/Graphics-Linear-Logo-Short-Sleeves-Tee-2.jpg",
+            "img/Graphics-Linear-Logo-Short-Sleeves-Tee-3.jpg"
+        ]
+    },   
+    {
+        "id": 9,
+        "name": "Ivory Pussybow Neck 3/4 Sleeve Top",
+        "sex": "Women",
+        "brand": "Dorothy Perkins",
+        "category": "Tops",
+        "price": "$18.00",
+        "size": ["XS", "S", "M", "L", "XL"],
+        "images": [
+            "img/Ivory-Pussybow-Neck-34-Sleeve-Top-1.jpg",
+            "img/Ivory-Pussybow-Neck-34-Sleeve-Top-2.jpg",
+            "img/Ivory-Pussybow-Neck-34-Sleeve-Top-3.jpg"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Textured Printed Dress",
+        "sex": "Women",
+        "brand": "Mango",
+        "category": "Dresses",
+        "price": "$18.00",
+        "size": ["XS", "S", "M", "L", "XL"],
+        "images": [
+            "img/Textured-Printed-Dress-1.jpg",
+            "img/Textured-Printed-Dress-2.jpg",
+            "img/Textured-Printed-Dress-3.jpg"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "311 Womens Shaping Skinny Jeans",
+        "sex": "Women",
+        "brand": "Levi's",
+        "category": "Jeans",
+        "price": "$44.00",
+        "size": ["25", "26", "27", "28", "29", "30", "31", "32"],
+        "images": [
+            "img/311-Womens-Shaping-Skinny-Jeans-1.jpg",
+            "img/311-Womens-Shaping-Skinny-Jeans-2.jpg",
+            "img/311-Womens-Shaping-Skinny-Jeans-3.jpg"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Stan Smith Shoes",
+        "sex": "Women",
+        "brand": "Adidas",
+        "category": "Shoes",
+        "price": "$100.00",
+        "size": ["7", "7.5", "8", "8.5", "9", "9.5", "10"],
+        "images": [
+            "img/Stan-Smith-Shoes-1.jpg",
+            "img/Stan-Smith-Shoes-2.jpg",
+            "img/Stan-Smith-Shoes-3.jpg",
+            "img/Stan-Smith-Shoes-4.jpg",
+            "img/Stan-Smith-Shoes-5.jpg"
+        ]
+    }
+]

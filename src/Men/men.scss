@@ -1,0 +1,26 @@
+.Men {
+  &__container {
+    padding: 6em;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1075px) {
+  .Men__container {
+    padding: 6em 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Men__container {
+    padding: 6em 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

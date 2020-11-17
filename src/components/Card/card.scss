@@ -1,0 +1,51 @@
+.ProdList {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  justify-items: center;
+
+  .No-results {
+    display: none;
+  }
+
+  a {
+    text-decoration: none;
+    width: 18rem;
+    height: 35rem;
+    color: black;
+    margin-bottom: 4em;
+  }
+
+  .Card {
+    padding: 0.2em;
+    border: 2px solid transparent;
+    width: 17.7rem;
+    height: 35rem;
+    position: relative;
+
+    &:hover {
+      border: 2px solid #e6e6e6;
+      cursor: pointer;
+    }
+
+    * {
+      margin-bottom: 0.5em;
+    }
+
+    &__img {
+      max-height: 25rem;
+      width: 17rem;
+      border: 1px solid #e6e6e6;
+    }
+
+    &__price {
+      position: absolute;
+      right: 0.2em;
+      bottom: 0;
+    }
+  }
+}
+
+.show {
+  display: flex;
+}

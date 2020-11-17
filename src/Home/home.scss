@@ -1,0 +1,18 @@
+.Home {
+  &__container {
+    padding: 6em;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    img {
+      max-width: 100%;
+      min-width: 10rem;
+      height: auto;
+    }
+
+    .shop-men {
+      margin-right: 1em;
+    }
+  }
+}
